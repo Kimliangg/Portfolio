@@ -7,14 +7,14 @@
     <style>
 
 body{
-  background-color: aquamarine;
+  background-color: #DCDCDC;
 }
 
 .p1{
   text-align: center;
 }
 
- div {
+ .block {
     border: 1px solid gray;
     padding: 8px;
   }
@@ -38,11 +38,34 @@ a:hover, a:active {
   background-color: rgb(255, 136, 0);
 }
 
+.container_home {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+
+.header_text {
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+
+.education {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -180px;
+}
+
+
+
 .imgmain {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 
 
 
@@ -53,25 +76,39 @@ a:hover, a:active {
         <a href="./EDUCATION.html">Education</a>
         <a href="./ACTIVITIES.html">Activities</a>
 
-        <div>
+        <div class="block">
           <h1>
             Profile
           </h1>
         </div>    
           
-  <br><img src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/364542411_6267041093424751_3920648456909972333_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGqmtNHjWn0jNxWPdM6hMUqzlNvXkofrn7OU29eSh-ufuqrRP_QtgZVnsnPM-sLtFD-gxCrFQs8Ajuh2wwLXnAj&_nc_ohc=mslCN9w1xAQAX8vZnT8&_nc_ht=scontent.fbkk10-1.fna&oh=03_AdTK3qMCX40Zo4Y2XCfR7pRYB-96Lp_WZKRW2o2bt4iJqA&oe=65066146"
+  <br><img src="https://scontent.fbkk29-6.fna.fbcdn.net/v/t1.15752-9/364542411_6267041093424751_3920648456909972333_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=u8GgVRcd4WsAX_1wFdr&_nc_ht=scontent.fbkk29-6.fna&oh=03_AdSdMeIdD-gemRmcr25Bb_d1EyzSHT3LZ58-L2UIh7K08A&oe=654C7906"
   width="300px" class="imgmain">
 
-
-  <p class="p1">
-    <br>ชื่อ - นามสกุล : กฤตบุญ ประทุมนันท์
+  <div class=".container_home"  id="home">
+      <div class="header_text">
+    <h2>ประวัติส่วนตัว</h2>
+    <h3>
+        ชื่อ - นามสกุล : กฤตบุญ ประทุมนันท์
     <br>ชื่อเล่น : กิมเลี้ยง
     <br>วันเกิด : 13 มกราคม 2549
     <br>อายุ : 17
     <br>สัญชาติ  : ไทย
     <br>เชื้อชาติ : ไทย
     <br>ศาสนา : พุทธ
-  </p>
+    <br>แผนการเรียรีน : ศิลป์-คำนวณ
+        โครงการหลักสูตรภาคภาษาอังกฤษ
+    <br>ลักษณะนิสันิยสั : ร่าเริง เอื้อเฟื้อเผื่อแผ่
+        มีมนุษนุย์สัมพันธ์ดี
+    <br>งานอดิเรก : บาสเกตบอล ฟังเพลง
+        คอมพิวพิเตอร์เร์กม
+      </h3>
+      </div>
+  </div>
+
+
+
+
 
 
 
